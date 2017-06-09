@@ -38,7 +38,8 @@ margin-top: -20%;
   transition: 1000ms;
 }
 .image{
-  width:20%;
+  width:40%;
+  border-radius: 50%;
 }
 .butttt:hover{
   transform: scale(1.2);
