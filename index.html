@@ -42,14 +42,37 @@
       <div class="bg1">
         <h2>Ping Pong Ultimate</h2>
         <button class="btn btn-default btn-lg butt">PLAY NOW!!!</button>
+        <button class="btn btn-default btn-lg butttt" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Check about me</button>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Abou Me!</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <br/>
       <br/>
       <br/>
-      <div class="col-lg-12 col-md-12, col-sm-12 down">
+      <br/>
+      <div class="col-lg-12 col-md-12, col-sm-12 down" id="instructions">>
         <div class="row">
-          <div class="">
+          <div>
+            <h1>Ping pong Specifications</h1>
+            <p>
 
+              Numbers divisible by 3 are replaced with "ping"<br/> Numbers divisible by 5 are replaced with "pong"<br/> Numbers divisible by 15 are replaced with "pingpong"<br/> A user should be able to enter a new number and see new results over and
+              over again<br/>
+            </p>
           </div>
         </div>
       </div>
