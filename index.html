@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <title>Ping Pong</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Ping Pong</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#home">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#play">Play Ping Pong</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="bg">
+        <img src="img/header.jpg" class="img">
+      </div>
+      <div class="bg1">
+        <h2>Ping Pong Ultimate</h2>
+        <button class="btn btn-default btn-lg butt">PLAY NOW!!!</button>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <div id="play" class="col-lg-12 col-md-12, col-sm-12 down">
+        <div class="well">
+          <h3>Enter a number you wish to ping pong</h3>
+          <form id="ping">
+            <div class="form-group">
+              <input class="form-control" id="pingNum" placeholder="Number to ping pong">
+            </div>
+            <button type="submit" class="btn btn-success buttt" name="submit">Submit</button>
+          </form>
+          <h6 id="output"></h6>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="footer">
+        <div class="container">
+          <div>
+            <ul>
+              <li><i class="fa fa-facebook"><a href="www.facebook.com/dennismuturia"></a></i></li>
+              <li><i class="fa fa-instagram"><a href="www.instagram.com/dennis_muturia"></a></i></li>
+              <li></li>
+            </ul>
+          </div>
+          <p class="muted credit">This is a sticky footer</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+</body>
+
+</html>
