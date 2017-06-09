@@ -32,6 +32,8 @@ $(document).ready(function(){
     var num = parseInt($('input#pingNum').val())
     var newNum = pings(num)
 
+    $('#output').text('')
+
     $("#output").append('<ul>')
     newNum.forEach(function(newnu){
       $("#output").append('<li> ' + newnu +'</li>')
